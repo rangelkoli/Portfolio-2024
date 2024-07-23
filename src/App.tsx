@@ -3,12 +3,15 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import HeroSec from "./components/HeroSec";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Navbar />
       <HeroSec />
       <div
         style={{
@@ -19,11 +22,14 @@ function App() {
           alignItems: "center",
           justifyContent: "center",
           overflowX: "hidden",
-          backgroundColor: "black",
+          background:
+            "linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,52,110,1) 100%)",
         }}
       >
+        <h1></h1>
         asd
       </div>
+      <Projects />
     </>
   );
 }
