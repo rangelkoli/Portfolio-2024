@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import HeroSec from "./components/HeroSec";
 import Navbar from "./components/Navbar";
