@@ -62,7 +62,7 @@ const HeroSec = () => {
             marginTop: "0",
           }}
         >
-          turnining ideas into reality.
+          turning ideas into reality.
         </p>
       </div>
       <Spline

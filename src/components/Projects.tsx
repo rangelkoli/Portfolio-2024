@@ -37,7 +37,13 @@ const Projects = () => {
           "linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,52,110,0) 100%)",
       }}
     >
-      <h1>Projects</h1>
+      <h1
+        style={{
+          fontFamily: "Quartzo",
+        }}
+      >
+        Projects
+      </h1>
       <div
         className='container'
         style={{
