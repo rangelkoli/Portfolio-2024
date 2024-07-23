@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import AnonimoHome from "../assets/images/AnonimoHome.png";
 import "../assets/styles/Projects.css";
 import AnonHome from "../assets/images/AnonHome.jpeg";

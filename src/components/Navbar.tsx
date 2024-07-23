@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../assets/rangelLogo.png";
 const Navbar = () => {
   return (
