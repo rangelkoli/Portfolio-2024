@@ -1,4 +1,3 @@
-import Logo from "../assets/rangelLogo.png";
 import "../assets/styles/Navbar.css";
 
 const Navbar = () => {
