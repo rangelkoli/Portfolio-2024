@@ -46,10 +46,11 @@ const Navbar = () => {
         </div>
 
         <div style={{}} className='nav-links'>
-          <a href='#about'>About</a>
           <a href='#projects'>Projects</a>
-          <a href='#contact'>Contact</a>
-          <a href='#resume'>Resume</a>
+
+          <a href='https://drive.google.com/file/d/1Z5VDw8AI823CZ0LE4wg9602r-7cRJiG0/view?usp=sharing'>
+            Resume
+          </a>
         </div>
       </div>
       <div style={{}} className='navbarMobile'>
