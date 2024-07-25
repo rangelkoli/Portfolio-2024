@@ -1,0 +1,67 @@
+.nav-links {
+    /* CSS properties here */
+    gap: 2rem;
+    font-family: "Quartzo";
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: black;
+    color: white;
+    font-family: "Quartzo";
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    gap: 2rem;
+    max-width: 1000px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.navbarMobile{
+    display: none;
+
+}
+@media screen and (max-width: 768px){
+    .nav-links{
+        display: none;
+
+    }
+    .navbar{
+display: none;
+    }
+    .navbarMobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-family: "Quartzo";
+        font-size: 1.5rem;
+        border: 1px solid white;
+        border-radius: 10px;
+
+    }
+    .nav-linksMobile{
+        display: flex;
+        gap: 1rem;
+        font-family: "Quartzo";
+        font-size: 1rem;
+        letter-spacing: 0.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 100%
+
+    }
+    
+}
+

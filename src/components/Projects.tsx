@@ -32,7 +32,6 @@ const Projects = () => {
     <div
       id='projects'
       style={{
-        padding: "2rem",
         background:
           "linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,52,110,0) 100%)",
       }}
@@ -59,30 +58,9 @@ const Projects = () => {
           className='card'
           onMouseEnter={() => handleCardHover(AnonHome)}
           onMouseLeave={handleCardLeave}
-          style={{
-            borderRadius: "10px",
-            width: "100%",
-            height: "300px",
-            maxWidth: "1000px",
-            display: "flex",
-            justifyContent: "space-between",
-            flexDirection: "row",
-            alignItems: "center",
-            backgroundColor: "#1d232a",
-            color: "white",
-            padding: "1rem",
-          }}
+          style={{}}
         >
-          <img
-            src={AnonimoHome}
-            alt='Anonimo'
-            style={{
-              width: "500px",
-              height: "300px",
-              imageOrientation: "center",
-              objectFit: "cover",
-            }}
-          />
+          <img src={AnonimoHome} alt='Anonimo' style={{}} />
           <div
             style={{
               display: "flex",
@@ -123,30 +101,9 @@ const Projects = () => {
           className='card'
           onMouseEnter={() => handleCardHover(FindXHome)}
           onMouseLeave={handleCardLeave}
-          style={{
-            borderRadius: "10px",
-            width: "100%",
-            height: "300px",
-            maxWidth: "1000px",
-            display: "flex",
-            justifyContent: "space-between",
-            flexDirection: "row",
-            alignItems: "center",
-            backgroundColor: "#1d232a",
-            color: "white",
-            padding: "1rem",
-          }}
+          style={{}}
         >
-          <img
-            src={FindXHome}
-            alt='Anonimo'
-            style={{
-              width: "500px",
-              height: "300px",
-              imageOrientation: "center",
-              objectFit: "cover",
-            }}
-          />
+          <img src={FindXHome} alt='Anonimo' style={{}} />
           <div
             style={{
               display: "flex",
@@ -187,30 +144,9 @@ const Projects = () => {
           className='card'
           onMouseEnter={() => handleCardHover(WalkSafeHome)}
           onMouseLeave={handleCardLeave}
-          style={{
-            borderRadius: "10px",
-            width: "100%",
-            height: "300px",
-            maxWidth: "1000px",
-            display: "flex",
-            justifyContent: "space-between",
-            flexDirection: "row",
-            alignItems: "center",
-            backgroundColor: "#1d232a",
-            color: "white",
-            padding: "1rem",
-          }}
+          style={{}}
         >
-          <img
-            src={WalkSafeHome}
-            alt='Anonimo'
-            style={{
-              width: "500px",
-              height: "300px",
-              imageOrientation: "center",
-              objectFit: "cover",
-            }}
-          />
+          <img src={WalkSafeHome} alt='Anonimo' style={{}} />
           <div
             style={{
               display: "flex",

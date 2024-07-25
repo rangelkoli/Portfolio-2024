@@ -1,5 +1,6 @@
 import Spline from "@splinetool/react-spline";
 import "../assets/styles/HeroSec.css";
+
 const HeroSec = () => {
   return (
     <div
@@ -71,6 +72,7 @@ const HeroSec = () => {
         lang='en'
         onLoad={() => console.log("loaded")}
         onWaiting={() => console.log("waiting")}
+        onError={() => console.log("error")}
       />
     </div>
   );
