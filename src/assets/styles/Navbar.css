@@ -49,6 +49,9 @@ display: none;
         font-size: 1.5rem;
         border: 1px solid white;
         border-radius: 10px;
+        position: fixed;
+        top: 1%;
+        left: 10%;
 
     }
     .nav-linksMobile{
@@ -59,7 +62,9 @@ display: none;
         letter-spacing: 0.2em;
         font-weight: bold;
         text-transform: uppercase;
-        width: 100%
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 1rem;
 
     }
     

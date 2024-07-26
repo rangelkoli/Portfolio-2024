@@ -58,7 +58,9 @@ const Navbar = () => {
           style={{
             display: "flex",
             alignItems: "center",
-            justifyContent: "center",
+            justifyContent: "space-between",
+            width: "60vw",
+            marginLeft: "1rem",
           }}
         >
           {/* <img
@@ -76,9 +78,10 @@ const Navbar = () => {
               justifyContent: "center",
               display: "flex",
               alignItems: "center",
+              width: "100%",
             }}
           >
-            RK
+            Rangel Koli
           </p>
         </div>
 

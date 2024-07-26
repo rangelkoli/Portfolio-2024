@@ -36,7 +36,7 @@ const Socials = () => {
           <ul className='example-2'>
             <li className='icon-content'>
               <a
-                href='https://linkedin.com/'
+                href='https://www.linkedin.com/in/rangelkoli/'
                 aria-label='LinkedIn'
                 data-social='linkedin'
               >
@@ -59,7 +59,7 @@ const Socials = () => {
             </li>
             <li className='icon-content'>
               <a
-                href='https://www.github.com/'
+                href='https://github.com/rangelkoli'
                 aria-label='GitHub'
                 data-social='github'
               >
@@ -82,7 +82,7 @@ const Socials = () => {
             </li>
             <li className='icon-content'>
               <a
-                href='https://www.instagram.com/'
+                href='https://www.instagram.com/developedbyrangel/'
                 aria-label='Instagram'
                 data-social='instagram'
               >
@@ -105,7 +105,7 @@ const Socials = () => {
             </li>
             <li className='icon-content'>
               <a
-                href='https://youtube.com/'
+                href='https://www.youtube.com/channel/UCX1pqT9ZPXmBsJiX1luOP8g'
                 aria-label='Youtube'
                 data-social='youtube'
               >

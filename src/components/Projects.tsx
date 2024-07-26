@@ -4,6 +4,8 @@ import "../assets/styles/Projects.css";
 import AnonHome from "../assets/images/AnonHome.jpeg";
 import FindXHome from "../assets/images/FindXHome.png";
 import WalkSafeHome from "../assets/images/WalkSafeHome.jpg";
+import { motion } from "framer-motion";
+
 const Projects = () => {
   const [hoveredImage, setHoveredImage] = useState<string | null>(null);
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -55,7 +57,10 @@ const Projects = () => {
           flexDirection: "column",
         }}
       >
-        <div
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -100 }}
           className='card'
           onMouseEnter={() => handleCardHover(AnonHome)}
           onMouseLeave={handleCardLeave}
@@ -113,9 +118,12 @@ const Projects = () => {
               </button>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* Project 2*/}
-        <div
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 100 }}
           className='card'
           onMouseEnter={() => handleCardHover(FindXHome)}
           onMouseLeave={handleCardLeave}
@@ -173,9 +181,12 @@ const Projects = () => {
               </button>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* Project 3*/}
-        <div
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -100 }}
           className='card'
           onMouseEnter={() => handleCardHover(WalkSafeHome)}
           onMouseLeave={handleCardLeave}
@@ -234,7 +245,7 @@ const Projects = () => {
               </button>{" "}
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {hoveredImage && (

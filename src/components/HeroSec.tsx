@@ -1,9 +1,13 @@
 import Spline from "@splinetool/react-spline";
 import "../assets/styles/HeroSec.css";
+import { motion } from "framer-motion";
 
 const HeroSec = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
       style={{
         width: "100vw",
         height: "100vh",
@@ -74,7 +78,7 @@ const HeroSec = () => {
         onWaiting={() => console.log("waiting")}
         onError={() => console.log("error")}
       />
-    </div>
+    </motion.div>
   );
 };
 
