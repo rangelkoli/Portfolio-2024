@@ -20,8 +20,7 @@ const TechStack = () => {
           color: "white",
         }}
       >
-        {" "}
-        Languages & Technologies
+        Skills
       </h1>
       <div
         style={{
